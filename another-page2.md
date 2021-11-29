@@ -1,6 +1,6 @@
 ## My first post about my volumetric renderer found on shadertoy:
 
-#**Implementation details**:
+# **Implementation details**:
 
 For these volumetric renders, I used the fractal as the density, meaning that if the current ray position is within a certain distance of the fractal,
 the density will be set at 0.9. While if the distance is larger, density at that point will simply be 0. I'm doing the most basic algorithm to render volumes!
@@ -33,7 +33,7 @@ I also encapsulated the fractals within spheres, by first just raymarching infin
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/cloudsss1.png?raw=true)
 
 
-#Links to the shaders:
+# Links to the shaders:
 [Link]https://www.shadertoy.com/view/sdXXDM
 [Link]https://www.shadertoy.com/view/NssXD7
 [Link]https://www.shadertoy.com/view/ssXGDX
