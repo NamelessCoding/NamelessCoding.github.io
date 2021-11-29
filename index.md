@@ -5,6 +5,7 @@ Here I share my differebt work and give share some of my thoughts!
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/futurecity2.png?raw=true)
 **Fractal Renderer #1:** [Link to fractal renderer page #1](./another-page.md).
 
+![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/index.png?raw=true)
 **Volumetrics Renderer #1:** [Link to volumetrics renderer page #1](./another-page2.md).
 
 # About
