@@ -11,7 +11,7 @@ I'm a 21 year old greaphics programmer, currently living in the Netherlands with
 post about the different projects and share some of my thoughts behind the creation!
 
 # Gallery
-![Octocat](https://github.githubassets.com/assets/images/bhgbhgbhgbhgbhg.png)
+![Octocat](https://raw.githubusercontent.com/NamelessCoding/NamelessCoding.github.io/main/assets/images/bhgbhgbhgbhgbhg.png)
 
 
 # Contact:
