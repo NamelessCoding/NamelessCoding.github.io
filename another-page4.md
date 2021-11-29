@@ -4,9 +4,9 @@
 So with this one I'm doing the BRDFs a bit different, I heard from someone that lerping the brdfs together is a proper way to combine multiple BRDFs together and
 it's supposedly also energy conserving, which is very important. 
 
-# **New sky and clouds using rayleigh and mie scattering**:
+# **New sky and clouds using Rayleigh and Mie scattering**:
 So I recently tried a more physically realistic model of the sky, as opposed to the preetham sky algorithm I implemented a while ago. This time I'm using
-rayleigh scattering for the sky and the formula is taken from here https://en.wikipedia.org/wiki/Mie_scattering, which is surprising since this is an article
+Rayleigh scattering for the sky and the formula is taken from here https://en.wikipedia.org/wiki/Mie_scattering, which is surprising since this is an article
 about Mie scattering and it has rayleigh approximation formula. Either way, for the clouds I applied some mie scattering and after messing around a bit, I managed
 to create some good looking clouds and sky:
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/dfgdfh345346.png?raw=true)
