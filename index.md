@@ -2,8 +2,6 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
 **Welcome** to **NamelessFractal's** blog, here I share my differebt work and give share some of my thoughts! 
 
 
