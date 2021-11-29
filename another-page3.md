@@ -1,6 +1,6 @@
 ## Real-time path tracing using a voxel representation of the scene:
 
-#**Implementation details**:
+# **Implementation details**:
 
 So this project started as simply learning OpenGL and one of the things I wanted to try implementing was VXGI. Essentially just doing real-time global illumination using a voxel representation of the scene! The traversal algorithm is simply ray-marching, which is inaccurate due to the step size being either too small(taking way too many cycles to reach a filled voxel), or too big, which causes it to miss some voxels that it would've otherwise hit.
 
