@@ -29,8 +29,8 @@ But enough about that, here are some pictures from renderer:
 
 
 #Links to the shaders:
-https://www.shadertoy.com/view/NtsGDl
-https://www.shadertoy.com/view/sls3Ds
-https://www.shadertoy.com/view/st2Gzh
+[Link]https://www.shadertoy.com/view/NtsGDl
+[Link]https://www.shadertoy.com/view/sls3Ds
+[Link]https://www.shadertoy.com/view/st2Gzh
 
 [back](./)
