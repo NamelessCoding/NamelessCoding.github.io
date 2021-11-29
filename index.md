@@ -10,7 +10,7 @@ Here I share my differebt work and give share some of my thoughts!
 I'm a 21 year old greaphics programmer, currently living in the Netherlands with hope to be able to work as a rendering engineer in the future(it's ny drean). Here I can 
 post about the different projects and share some of my thoughts behind the creation!
 
-#Gallery
+# Gallery
 ![Octocat](https://github.githubassets.com/assets/images/bhgbhgbhgbhgbhg.png)
 
 
