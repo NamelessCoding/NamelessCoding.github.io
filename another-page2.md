@@ -24,6 +24,8 @@ The entire thing in code looks like this:
 return energy;
 ```
 
+I also encapsulated the fractals within spheres, by first just raymarching infinite spheres, by simply modulating the position and after I hit something, I continue raymarching within the volume.
+
 
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/dfgd345346.png?raw=true)
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/index.png?raw=true)
