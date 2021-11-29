@@ -12,6 +12,6 @@ on the other side however this bug was quite nice, so I decided to leave it ther
 
 
 # Links to the shaders:
-[Link]https://www.shadertoy.com/view/7ssSRM
+[Link] https://www.shadertoy.com/view/7ssSRM
 
 [back](./)
