@@ -8,6 +8,11 @@ on the other side however this bug was quite nice, so I decided to leave it ther
 
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/dfsd2345.png?raw=true)
 
+The sand started acting somewhat strange when I was implementing it and I wasn't sure why, however I decided to keep it and to introduce fractals into the mix!
+This turned out better than I expected and as you can see, they generate quite interesting patterns as you see in these videos:
+https://imgur.com/a/UebcyFs
+
+
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/dsfsgd.png?raw=true)
 
 
