@@ -14,7 +14,7 @@ Here I share my different work and some of my thoughts!
 
 # About
 
-I'm a 21 year old greaphics programmer, currently living in the Netherlands with hope to be able to work as a rendering engineer in the future(it's my drean). Here I can 
+I'm a 21 year old graphics programmer, currently living in the Netherlands with hope to be able to work as a rendering engineer in the future(it's my drean). Here I can 
 post about the different projects and share some of my thoughts behind the creation!
 
 # Contact:
