@@ -1,6 +1,6 @@
 **Welcome** to **NamelessFractal's** blog!
 
-Here I share my differebt work and give share some of my thoughts! 
+Here I share my different work and some of my thoughts! 
 
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/futurecity2.png?raw=true)
 **Fractal Renderer #1:** [Link to fractal renderer page #1](./another-page.md).
