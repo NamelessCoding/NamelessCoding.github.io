@@ -11,6 +11,8 @@ Here I share my different work and some of my thoughts!
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/ConsoleApp1_ZtsQAolgw0.jpg?raw=true)
 **Real time path tracing using a voxel scene representation #1:** [Link to real-time path tracing blog #1](./another-page3.md).
 
+![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/243423fftt.png?raw=true)
+**Fractal Renderer #2:** [Link to fractal renderer page #2](./another-page4.md).
 
 # About
 
