@@ -8,16 +8,17 @@ Essentially what I'm doing is marching forward at a fixed step size and at each 
 The entire thing in code looks like this:
 
 ```glsl
-float density = fbm(pos);
-float densityAlongSunPath = 0.;
-vec3 pos2 = pos;
-for(int i = 0; i < 20; i++){
-densityAlongSunPath += fbm(pos2);
-pos2+=sunDirection*stepSize;
+  float density = fbm(pos);
+  if(density > 0.01){
+    float densityAlongSunPath = 0.;
+    vec3 pos2 = pos;
+    for(int i = 0; i < 20; i++){
+      densityAlongSunPath += fbm(pos2);
+      pos2+=sunDirection*stepSize;
+    }
+  transmission *= 1.0-density;
+  energy += exp(-vec3(0.5,1.,2.)*densityAlongSunPath*densityMultiplier)*density*transmission;
 }
-transmission *= 1.0-density;
-energy += exp(-vec3(0.5,1.,2.)*densityAlongSunPath*densityMultiplier)*density*transmission;
-
 ....
 
 return energy;
