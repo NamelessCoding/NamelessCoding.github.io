@@ -4,4 +4,4 @@ I'm a 21 year old grap[hics programmer, currently living in the Netherlands. I p
 
 ### Contact
 
-Want to reach me? Send me a message on my [email](givememypackage@protonmail.com)!
+Want to reach me? Send me a message on my email: givememypackage@protonmail.com
