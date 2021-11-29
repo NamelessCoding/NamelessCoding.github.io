@@ -1,8 +1,6 @@
----
-layout: default
----
+**Welcome** to **NamelessFractal's** blog!
 
-**Welcome** to **NamelessFractal's** blog, here I share my differebt work and give share some of my thoughts! 
+Here I share my differebt work and give share some of my thoughts! 
 
 
 **Fractal Renderer #1:** [Link to fractal renderer page #1](./another-page.html).
