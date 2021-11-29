@@ -1,13 +1,27 @@
-## My second post about my volumetric renderer found on shadertoy:
-#Implementation details:
+## My first post about my volumetric renderer found on shadertoy:
 
-I'm doing the most basic algorithm for calculating volumes with raymarching.
-Basically I shoot a ray and move it by a fixed step amount, usually in the beginning it's larger steps,
-until I hit a volume after which I switch to a smaller step size. At each point of the cloud I shoot
-a ray towards the sun accumulating the density along that path (I also linearly increase the step size each
-iteration so that with fewer samples I can still catch shadows from nearby clouds), then I use beer's law(e^-dens)
-with the accumulated density multiplied with the current density and the transmission variable. 
-Essentially the bigger the accumulated density is, the less contribution it will have, the darker the clouds will appear.
+#**Implementation details**:
+
+For these volumetric renders, I used the fractal as the density, meaning that if the current ray position is within a certain distance of the fractal,
+the density will be set at 0.9. While if the distance is larger, density at that point will simply be 0. I'm doing the most basic algorithm to render volumes!
+Essentially what I'm doing is marching forward at a fixed step size and at each point that the density is above 0, I'm shooting a ray, accumulating the density along the path, towards the sun. Finally I use that value, alongside with the density at the current point and the transmission value to find the energy at that point:
+The entire thing in code looks like this:
+
+```glsl
+float density = fbm(pos);
+float densityAlongSunPath = 0.;
+vec3 pos2 = pos;
+for(int i = 0; i < 20; i++){
+densityAlongSunPath += fbm(pos2);
+pos2+=sunDirection*stepSize;
+}
+transmission *= 1.0-density;
+energy += exp(-vec3(0.5,1.,2.)*densityAlongSunPath*densityMultiplier)*density*transmission;
+
+....
+
+return energy;
+```
 
 
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/dfgd345346.png?raw=true)
