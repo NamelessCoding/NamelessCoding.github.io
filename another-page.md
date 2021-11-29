@@ -1,6 +1,6 @@
 ## My first post about my fractal renderer found on shadertoy:
 
-#**Implementation details**:
+# **Implementation details**:
 
 Currently so far I have implemented the microfacet model with the Beckmann brdf as well as importance sampling, next event estimation for both sun light and area light types with multiple importance sampling using the power heuristics, some very basic energy conservation and the preetham sky model. I also have written code for the GGX brdf, however when implementing it with NEE+MIS, the final result doesn't converge to naive as it's slightly off, so it's still something I need to fix.
 
@@ -28,7 +28,7 @@ But enough about that, here are some pictures from renderer:
 
 
 
-#Links to the shaders:
+# Links to the shaders:
 [Link]https://www.shadertoy.com/view/NtsGDl
 [Link]https://www.shadertoy.com/view/sls3Ds
 [Link]https://www.shadertoy.com/view/st2Gzh
