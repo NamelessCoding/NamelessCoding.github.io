@@ -18,7 +18,7 @@ A lot of progress can be seen on my channel:
 
 
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/ConsoleApp1_jlnU8eAfnQ.png?raw=true)
-![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/ConsoleApp1_blqjm3BbJ5.png?raw=true)
-
+![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/ConsoleApp1_OE1TYePKfz.jpg?raw=true)
+![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/ConsoleApp1_jlzpTlKV9W.jpg?raw=true)
 
 [back](./)
