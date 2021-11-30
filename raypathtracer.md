@@ -15,7 +15,7 @@ generate beautiful images as seen below:
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/2pd4.png?raw=true)
 
 One big issue with this way of generating an image is that the noise can become a big hurdle to overcome, there are some denoisers out there,
-one which I prefer being by Intel and Nvidia. However on the other hand, it takes a while for it to converge.
+one which I prefer being by Intel and Nvidia.
 
 # **2D Ray Tracing**
 
