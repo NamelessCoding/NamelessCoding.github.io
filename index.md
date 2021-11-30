@@ -17,6 +17,9 @@ Here I share my different work and some of my thoughts!
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/fsdg235.png?raw=true)
 **Failed Sand Sim:** [Link to sand renderer](./another-page5.md).
 
+![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/bhkgyt8.png?raw=true)
+**Art of a good lens flare** [Link to sand renderer](./another-page6.md).
+
 
 # About
 
