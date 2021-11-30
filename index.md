@@ -24,6 +24,9 @@ Here I share my different work and some of my thoughts!
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/2pd5.png?raw=true)
 **2D Path/Ray tracing:** [Link to 2D path/ray tracer](./raypathtracer.md).
 
+![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/fg1.png?raw=true)
+**Fractals #3** [Link to Fractals #3](./fractals3.md).
+
 
 # About
 
