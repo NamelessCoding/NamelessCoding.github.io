@@ -1,4 +1,4 @@
-## Art of a good lens flare
+## 2D Ray/Path Tracing
 
 # **Implementation details**:
 Creating a 2D path/ray tracer isn't very difficult, however to make it more interesting I tried a trick to make it seem like it's spectral,
