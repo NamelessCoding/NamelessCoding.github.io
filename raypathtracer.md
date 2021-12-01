@@ -1,9 +1,7 @@
 ## 2D Ray/Path Tracing
 
 # **Implementation details**:
-Creating a 2D path/ray tracer isn't very difficult, however to make it more interesting I tried a trick to make it seem like it's spectral,
-but in reality I'm only doing a different refraction value depending if I'm calculating the red, green, or blue channel. This gives the illussion of 
-dispersion and it's fairly simple to implement.
+Creating a 2D path/ray tracer isn't very difficult, however to make it more interesting I decided to make it spectral. So the refraction index depends on the wavelength and later the hue. This created a really interesting dispersion effect, especially within the stars.
 
 # **2D Path Tracing**
 When path tracing in the second dimension, you start off from the current pixel position, choose a random direction and you shoot the ray until it hits an object.
