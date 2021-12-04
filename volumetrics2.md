@@ -32,7 +32,6 @@ and finally the shadow map:
 
 ```glsl
 float volume(vec3 vec, vec3 view, mat4 ligpp, mat4 ligvv){
-int samples = 40;
 vec3 dir = vec / 60.;
 float accum = 0.;
 vec3 curr = view;
