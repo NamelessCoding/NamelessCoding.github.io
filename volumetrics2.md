@@ -56,7 +56,7 @@ https://www.youtube.com/watch?v=65E9_aDgF5k
 
 This is perhaps the simplest method to do volumetrics, so simple that I was wondering if it's worth the articles.. 
 Note that this works best when accumulated, as you can see the rndf(rseed) function returns a number between 0 and 1
-and that can introduce noise, but since we're path tracing and frames are accumulated, the end result is smooth.
+and that introduces noise, but it also means that we can do less samples since we're path tracing and frames are accumulated, the end result is smooth.
 
 Either way, here are some pictures generated using this method:
 
