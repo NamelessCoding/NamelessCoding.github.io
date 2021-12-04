@@ -6,7 +6,7 @@ Volumetrics are very easy to implement and I'll give an explanation on the algor
 
 **The idea itself is very simple:**
 - Record the first hit position and the camera position.
-- Once the path tracing is done, start moving along the vector from the camera to the hit position over a certain distance and shoot a ray towards the light source.
+- Once the path tracing is done, start moving along the vector from the camera to the hit position over at certain intervals of distance and shoot a ray towards the light source.
 - If you hit the light source, you add 1 to some variable, otherwise you don't add anything.
 - In the end, simply divide the accumulation variable by the amount of steps it took you to move from the camera to the hit position.
 
