@@ -27,10 +27,6 @@ Here I share my different work and some of my thoughts!
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/fg1.png?raw=true)
 **Fractals #3** [Link to Fractals #3](./fractals3.md).
 
-![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/ConsoleApp1_I4KYX8o693.png?raw=true)
-**Real-time path tracing using a voxel representation #2** [Link to Real-time PT #2](./realtimepathtracer2.md).
-
-
 # About
 
 I'm a 21 year old graphics programmer, currently living in the Netherlands with hope to be able to work as a rendering engineer in the future(it's my dream). Here I can 
