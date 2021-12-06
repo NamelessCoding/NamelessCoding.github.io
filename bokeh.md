@@ -40,7 +40,7 @@ to align the side vectors so that I can offset the ray position by a certain amo
 position, we're emulating the aperature shape and because we're accumulating frames over time the shape of the aperature will become visible.  
 
 # **The focal point**
-The focus point is the point that will be the most clear, essentially the way it works is that the point on the focal plane will be the least offset.
+The focus point is the point that will be the most clear, essentially the way it works is that the point on the focal plane will be the least offset as the ray direction is towards the point on the focal plane. Once it passes the focus point the rays will diverge more and more away from one another.
 
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/external-content.duckduckgo.com.png?raw=true)
 
