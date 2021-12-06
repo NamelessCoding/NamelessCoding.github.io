@@ -39,6 +39,10 @@ Here I share my different work and some of my thoughts!
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/wow.png?raw=true)
 **Fractals Volumetrics** [Link to Fractals Volumetrics](./volumetrics2.md).
 
+# **Bokeh effect**
+![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/gsdfgsaaa.png?raw=true)
+**Bokeh effect** [Link to Bokeh effect](./bokeh.md).
+
 
 # About
 
