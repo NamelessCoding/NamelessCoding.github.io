@@ -1,6 +1,6 @@
 ## Bokeh effect
 
-The usual rendering mimics a pinhole camera, which is essentially just a box with a small hole through which photons travel. A perfect pinhole camera cannot exist, as the hole needs to have the same radius as a photon. On the other side if we want proper bokeh, then we need to approximate a lens with an aperature shape.
+The usual renderer mimics a pinhole camera, which is essentially just a box with a small hole through which photons travel. A perfect pinhole camera cannot exist, as the hole needs to have the same radius as a photon. On the other side if we want proper bokeh, then we need to approximate a lens with an aperature shape.
 
 The aperature shape is essentially the shape that the camera lens has, which determines what the bokeh shape will be: 
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/external-content.duckduckgo.com.jpg?raw=true)
