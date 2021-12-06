@@ -1,8 +1,8 @@
 ## Bokeh effect
 
-The usual renderer mimics a pinhole camera, which is essentially just a box with a small hole through which photons travel. A perfect pinhole camera cannot exist, as the hole needs to have the same radius as a photon. On the other side if we want proper bokeh, then we need to approximate a lens with an aperature shape.
+The usual renderer mimics a pinhole camera, which is essentially just a box with a small hole through which photons travel. A perfect pinhole camera cannot exist, as the hole needs to have the same radius as a photon. On the other side if we want proper bokeh, then we need to approximate a lens with an aperture shape.
 
-The aperature shape is essentially the shape that the camera lens has, which determines what the bokeh shape will be: 
+The aperture shape is essentially the shape that the camera lens has, which determines what the bokeh shape will be: 
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/external-content.duckduckgo.com.jpg?raw=true)
 
 # **The code**
@@ -36,10 +36,10 @@ The aperature shape is essentially the shape that the camera lens has, which det
         d = normalize(focuspoint - p);
 ```
 
-# **The aperature shape**
+# **The aperture shape**
 In the end "p" is the current ray position and "d" is the ray direction. I use a "rot" function, which basically rotates a 2D vector by a certain amount. I use it
 to align the side vectors so that I can offset the ray position by a certain amount on the plane with a normal described by the "camdirection". By offsetting the ray 
-position, we're emulating the aperature shape and because we're accumulating frames over time the shape of the aperature will become visible. The radius controls the radius of the offset, the larger it is the more blurry the scene will be and vice-versa. The easiest shapes to simulate are basic things like a square, a circle, a ring and etc..
+position, we're emulating the aperture shape and because we're accumulating frames over time the shape of the aperture will become visible. The radius controls the radius of the offset, the larger it is the more blurry the scene will be and vice-versa. The easiest shapes to simulate are basic things like a square, a circle, a ring and etc..
 
 ```glsl
 //circle
