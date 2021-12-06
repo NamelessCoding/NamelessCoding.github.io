@@ -6,23 +6,24 @@ The aperture shape is essentially the shape that the camera lens has, which dete
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/external-content.duckduckgo.com.jpg?raw=true)
 
 # **The code**
+This code is for circular aperture!
 ```glsl
-        float focaldist = 1.3;
-        float radius = 0.01;
+        float focaldist = 1.3; // distance from the camera towards the focal plane
+        float radius = 0.01; // radius of the offset
 
-        vec3 camdirection = vec3(0.,1.,0.);
-        camdirection.yz = rot(camdirection.yz, rota);
-        camdirection.xy = rot(camdirection.xy, rotb);
-        vec3 sidex = vec3(1.,0.,0.);
-        vec3 sidey = vec3(0.,0.,1.);
+        vec3 camdirection = vec3(0.,1.,0.); // camera forward vector
+        camdirection.yz = rot(camdirection.yz, rota); 
+        camdirection.xy = rot(camdirection.xy, rotb); 
+        vec3 sidex = vec3(1.,0.,0.); // right side vector
+        vec3 sidey = vec3(0.,0.,1.); // top side vector
         sidex.xy = rot(sidex.xy,rotb);
 
         sidey.yz = rot(sidey.yz,rota);
         sidey.xy = rot(sidey.xy,rotb);
     
-        float ang = rndf(r)*2.0*3.14159;
-        float scale = sqrt(rndf(r))*radius;
-        vec2 offset = vec2(cos(ang), sin(ang))*scale;
+        float ang = rndf(r)*2.0*3.14159; // angle of the circle
+        float scale = sqrt(rndf(r))*radius; // scale 
+        vec2 offset = vec2(cos(ang), sin(ang))*scale; //offset used to simulate aperture 
       
     
        //NOT MY CODE////////////////////////BY bezo
@@ -30,10 +31,10 @@ The aperture shape is essentially the shape that the camera lens has, which dete
         /////////////////////////////////////
     
 
-        p = p + sidex*offset.x;
-        p = p + sidey*offset.y;
+        p = p + sidex*offset.x; // offset on the right side vector
+        p = p + sidey*offset.y; // offset on the top side vector
 
-        d = normalize(focuspoint - p);
+        d = normalize(focuspoint - p); // new ray direction based on the offset ray position and focuspoint
 ```
 
 # **The aperture shape**
