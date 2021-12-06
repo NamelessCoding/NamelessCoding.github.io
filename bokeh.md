@@ -25,7 +25,7 @@ The aperature shape is essentially the shape that the camera lens has, which det
         vec2 offset = vec2(cos(ang), sin(ang))*scale;
       
     
-       //NOT MY CODE////////////////////////
+       //NOT MY CODE////////////////////////BY bezo
         vec3 focuspoint = p + ((d*focaldist) / dot(d,camdirection)); //these will lie on the focal plane
         /////////////////////////////////////
     
