@@ -18,7 +18,7 @@ ones which I prefer being by Intel and Nvidia.
 # **2D Ray Tracing**
 
 Now what I mean by 2D "Ray Tracing" as opposed to 2D "Path Tracing" is that in this version I directly shoot the ray from the pixel position
-towards the light source. THe same rules still apply, if it hits a refractive object, the light refracts, if it hits a light source, we add to
+towards the light source. The same rules still apply, if it hits a refractive object, the light refracts, if it hits a light source, we add to
 the final color. What this version differentiates from "Path Tracing" is that there is no noise and proper dispersion is more possible. 
 Also I'm still doing the different refraction values per wavelength!
 
