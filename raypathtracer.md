@@ -13,14 +13,14 @@ generate beautiful images as seen below:
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/2pd4.png?raw=true)
 
 One big issue with this way of generating an image is that the noise can become a big hurdle to overcome, there are some denoisers out there,
-one which I prefer being by Intel and Nvidia.
+ones which I prefer being by Intel and Nvidia.
 
 # **2D Ray Tracing**
 
 Now what I mean by 2D "Ray Tracing" as opposed to 2D "Path Tracing" is that in this version I directly shoot the ray from the pixel position
 towards the light source. THe same rules still apply, if it hits a refractive object, the light refracts, if it hits a light source, we add to
 the final color. What this version differentiates from "Path Tracing" is that there is no noise and proper dispersion is more possible. 
-Also I'm still doing the different refraction values per color channel!
+Also I'm still doing the different refraction values per wavelength!
 
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/2dp.png?raw=true)
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/images/2dp2.png?raw=true)
