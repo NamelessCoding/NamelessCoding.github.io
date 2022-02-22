@@ -47,6 +47,9 @@ Here I share my different work and some of my thoughts!
 ![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/image2Dpathtracing/bvchd3546356.png?raw=true)
 **2D path tracing #2** [Link to 2D path tracing #2 effect](./path2.md).
 
+# **Minecraft Shader Path tracing**
+![Octocat](https://github.com/NamelessCoding/NamelessCoding.github.io/blob/main/assets/imageMCPathTracing/sectd.jpg?raw=true)
+**Minecraft Shader Path tracing** [Minecraft shader link](./mcshader.md).
 
 
 # About
